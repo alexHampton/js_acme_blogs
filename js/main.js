@@ -1,23 +1,5 @@
-// recap: I first started making async functions but didn't need to.
-// It only made things more complicated. I have learned to start basic and 
-// slowly make it as complex as it needs to be. 
-
-// I was having difficulty checking the 'data-post-id' attributes, so I logged
-// my objects to the console so I could inspect them. I also realized that since
-// some objects did not have that property, I had to check if the property exists
-// first.
-
-// recap: need to review removeEventListener. 
-
-// recap: all async json functions are pretty straighforward. didn't have any problems with them.
-
-// recap: DO NOT use Array.forEach() in async functions!
-
-// final recap:
-// it was a good practice, but since it was just step by step,
-// I didn't feel like I was making the program until suddenly at the end it all came together.
-// I would have liked to have a top-down approach first, so we could see how each function 
-// was going to be needed.
+// Author: Alex Hampton
+// Date: November 26th, 2021
 
 const createElemWithText = (element = 'p', text = '', className = '') => {
     const elemWithText = document.createElement(element);
